@@ -42,4 +42,5 @@ Once the model is trained it is saved using pkl and is tested on various testing
 
 ![image](https://user-images.githubusercontent.com/35194791/58445289-8bb98b80-8115-11e9-91f6-4e69966d8dd0.png)
 
+By using the above described architecture, we obtained the accuracy of 74% which is a great result on real-time datasets having much varying images with different angles and light illumination containing the images of half-cut faces, the model is able to recognize the person with half faces and from the periocular part of the image with a very fine accuracy. Figure gives the confusion matrix plot of the image, clearly indicating the results achieved on recognizing 50 subjects/classes with 74% accuracy.
 
