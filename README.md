@@ -12,6 +12,8 @@
 
 By analyzing various techniques and researching some possible solutions to our problem, domain we came up with our own possible architecture to obtain the better results and to test it in real-time environment, General Architecture and modules of our project are presented below:
 
+![image](https://user-images.githubusercontent.com/35194791/58445210-34b3b680-8115-11e9-9623-ae9249f6aa86.png)
+
 1) Dataset:
 The dataset for our problem domain is gathered from CSIP. By analyzing the datasets of various open source platforms, we found CSIP as the most suitable and better dataset for our problem as it contains the half-cut face images from various angles, directions (left half or right half) and captured in different light sources. It contains 50 subjects to be recognized giving a total of 2000 images. The image samples are divided into three categories: Training set (Containing 70% of the data), Test set (Containing 20% of the data), and Validation set (Containing 10% of the data). These datasets are divided into the mentioned categories using the code provided by name: “structurize_code.py”.
 
@@ -29,3 +31,15 @@ As the feature are extracted from above module, these are passed to the classify
 
 5) Evaluation:
 Once the model is trained it is saved using pkl and is tested on various testing images from the dataset using metrics of: Accuracy and Confusion Metrics for subjects provided.
+
+% Model Comparisons:
+
+![image](https://user-images.githubusercontent.com/35194791/58445243-60cf3780-8115-11e9-8295-16a4811610b2.png)
+
+![image](https://user-images.githubusercontent.com/35194791/58445260-72b0da80-8115-11e9-8682-8acf5196923b.png)
+
+% Results:
+
+![image](https://user-images.githubusercontent.com/35194791/58445289-8bb98b80-8115-11e9-91f6-4e69966d8dd0.png)
+
+
